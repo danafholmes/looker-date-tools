@@ -2,6 +2,10 @@
 
 Date tools are a light weight, extensible framework for simple period over period analysis in Looker. They can be extended on to any existing view with only minor updates to the existing views and explores.
 
+# SQL
+
+The included file uses Redshift SQL dialogue, but uses no redshift-specific functions, so it should be easily adaptable to any SQL dialect by modifying it to the dimensions to use the appropriate date functions.
+
 # Features
 
  - User selectable start date for period over period analysis
